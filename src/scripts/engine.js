@@ -1,4 +1,4 @@
-const CARD_IMAGES = ['Gill', 'Gohan', 'Goku', 'Pan', 'Trunks', 'Vegeta', 'Gotan', 'Baby', "Mr. Satan", "Super Saiyan"];
+const CARD_IMAGES = ['Gill', 'Gohan', 'Goku', 'Pan1', 'Trunks', 'Vegeta', 'Gotan', 'Baby', "Mr. Satan", "Super Saiyan"];
 
 const cards = [];
 let flippedCards = [];
