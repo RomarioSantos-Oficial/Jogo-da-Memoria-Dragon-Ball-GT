@@ -187,6 +187,11 @@ function init() {
     // Adicionar botão de reiniciar após a vitória
     const restartButton = document.getElementById('restartButton');
     restartButton.addEventListener('click', restartGame);
+     // Adicionar evento de clique no corpo para permitir a reprodução de áudio
+     document.body.addEventListener('click', () => {
+        bgm.play();
+        document.body.removeEventListener('click', () => {});
+    });
 }
 
 init();
