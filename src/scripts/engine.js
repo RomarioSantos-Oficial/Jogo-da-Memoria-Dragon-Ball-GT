@@ -159,7 +159,7 @@ function restartGame() {
 
 function init() {
     const bgm = document.getElementById('bgm');
-    bgm.volume = 0.15; // Defina o volume para 15%
+    bgm.volume = 0.1; // Defina o volume para 10%
     bgm.play();
 
     // Adicionar elemento para a música de vitória
