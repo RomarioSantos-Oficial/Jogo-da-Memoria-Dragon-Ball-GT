@@ -148,8 +148,6 @@ function showVictoryMessage() {
 }
 
 
-
-
 function updateTimer() {
     const currentTime = Math.floor((Date.now() - startTime) / 1000);
     timerElement.textContent = `Tempo Decorrido: ${currentTime} segundos`;
