@@ -159,7 +159,7 @@ function restartGame() {
 
 function init() {
     const bgm = document.getElementById('bgm');
-    bgm.volume = 0.2; // Defina o volume para 50%
+    bgm.volume = 0.15; // Defina o volume para 15%
     bgm.play();
 
     // Adicionar elemento para a música de vitória
@@ -187,6 +187,7 @@ function init() {
     // Adicionar botão de reiniciar após a vitória
     const restartButton = document.getElementById('restartButton');
     restartButton.addEventListener('click', restartGame);
+    
      // Adicionar evento de clique no corpo para permitir a reprodução de áudio
      document.body.addEventListener('click', () => {
         bgm.play();
